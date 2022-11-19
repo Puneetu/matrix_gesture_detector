@@ -62,8 +62,8 @@ class MatrixGestureDetector extends StatefulWidget {
   /// aligned relative to the size of this widget.
   final Alignment? focalPointAlignment;
     
-  final VoidCallBack onScaleStart;
-  final VoidCallBack onScaleEnd;
+  final VoidCallback onScaleStart;
+  final VoidCallback onScaleEnd;
     
     
   const MatrixGestureDetector({
